@@ -17,12 +17,13 @@ const call = ()=>{
 call();
 
 // 5. List 내장함수를 이용하여 리스트 목록 뿌리기
+//5-1. 콜백펑션 방법(1)
 function callBackFunc(value){
     console.log(value);
 }
-
 list.forEach(callBackFunc);
 
+//5-2. 콜백펑션 방법(2)
 list.forEach(function(l){
     console.log('NEw'+l)
 })
